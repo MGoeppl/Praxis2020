@@ -1,0 +1,80 @@
+@charset "UTF-8";
+
+
+/* == FONTS == */
+
+/* Praxis */
+@font-face {
+	font-family: Praxis;
+	src: url("fonts/Praxis/Praxis-Regular.ttf");
+	font-weight: normal;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: Praxis;
+	src: url("fonts/Praxis/Praxis-RegularItalic.ttf");
+	font-weight: normal;
+	font-style: italic;
+}
+
+@font-face {
+	font-family: Praxis;
+	src: url("fonts/Praxis/Praxis-Bold.ttf");
+	font-weight: bold;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: Praxis;
+	src: url("fonts/Praxis/Praxis-BoldItalic.ttf");
+	font-weight: bold;
+	font-style: italic;
+}
+
+@font-face {
+	font-family: Praxis;
+	src: url("fonts/Praxis/Praxis-Hairline.ttf");
+	font-weight: 100;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: Praxis;
+	src: url("fonts/Praxis/Praxis-Light.ttf");
+	font-weight: 300;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: Praxis;
+	src: url("fonts/Praxis/Praxis-LightItalic.ttf");
+	font-weight: 300;
+	font-style: italic;
+}
+
+@font-face {
+	font-family: Praxis;
+	src: url("fonts/Praxis/Praxis-Thin.ttf");
+	font-weight: 200;
+	font-style: normal;
+}
+
+
+
+
+/* HTML STYLES */
+
+/* Change general items */
+* {
+	font-family: "Praxis"
+}
+
+
+/* Specials for each item seperately */
+h1 {
+	font-weight: bold;
+}
+a {
+	font-weight: normal;
+}
